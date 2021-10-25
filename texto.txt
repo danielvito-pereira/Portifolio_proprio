@@ -1,0 +1,4 @@
+exemplos
+header>img+nav>a*5// > tag que vai dentro da outra, + representa a tag irmã 
+
+a[lagn=en]{conteudo}// [] representa a tag dentro de a, {} representa o conteudo 
