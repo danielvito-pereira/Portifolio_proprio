@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,15 @@
 }
 
 header {
-    display: flex;
+    background-color: #7C5E99;
 
 }
-
+a {
+    color: #fff;
+    font-style: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+}
 ul {
     list-style: none;
 }
