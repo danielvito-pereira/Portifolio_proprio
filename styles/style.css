@@ -9,6 +9,12 @@ header {
     background-color: #7C5E99;
 
 }
+ul {
+    list-style: none;
+}
+ul li {
+     display: inline; 
+}
 a {
     color: #fff;
     font-style: 20px;
@@ -17,9 +23,14 @@ a {
     text-decoration: none;
     margin-right: 30px;
 }
-ul {
-    list-style: none;
-}
-ul li {
-     display: inline; 
+
+
+#button {
+   display: inline-block; 
+   background-color: #F25A70;
+   height: 60PX; 
+   line-height: 60px; 
+   padding-left: 20px; 
+   padding-right: 20px; 
+   box-shadow: 5px 5px 0 #000000;
 }
