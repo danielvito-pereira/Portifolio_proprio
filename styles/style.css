@@ -6,8 +6,15 @@
 }
 
 header {
-    background-color: #7C5E99;
+    display: flex;
+    justify-content: space-between;
+    background-color: #320909;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+}
 
+nav {
+    text-align: right;
 }
 ul {
     list-style: none;
@@ -16,6 +23,9 @@ ul li {
      display: inline; 
 }
 a {
+    display: inline-flex;
+    align-items: center;
+   
     color: #fff;
     font-style: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -23,14 +33,35 @@ a {
     text-decoration: none;
     margin-right: 30px;
 }
+a::before {/*é um pseudo elemento por isso os dois pontos :: */
+    content: " ";/*É obrigatorio porque tudo precissa de conteudo */
+    display: inline-block;
+    background-color: #CC2A2A;
+    width: 10px;
+    height: 10px;
+    margin-right:10px;
+    /*
+    vertical-align: middle;*/
+}
 
-
+/*
+span {
+    display: inline-block;
+    background-color: #A50104;
+    width: 10px;
+    height: 10px;
+    margin-right:10px;
+    
+    vertical-align: middle;
+}*/
 #button {
    display: inline-block; 
-   background-color: #F25A70;
-   height: 60PX; 
-   line-height: 60px; 
-   padding-left: 20px; 
-   padding-right: 20px; 
+   background-color: #CC2A2A;
    box-shadow: 5px 5px 0 #000000;
+   padding: 18px 20px;
+   margin-right: 0;
+}
+
+#button:hover {
+
 }
