@@ -8,11 +8,15 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #320909;
     border-bottom: 10px solid #000000;
     padding: 10px 20px;
 }
-
+.logo {
+    color: #CC2A2A;
+    text-shadow: 5px 5px 0 #000000;
+}
 nav {
     text-align: right;
 }
@@ -44,6 +48,10 @@ a::before {/*é um pseudo elemento por isso os dois pontos :: */
     vertical-align: middle;*/
 }
 
+a:hover {
+    color: #BFD1E5;
+}
+
 /*
 span {
     display: inline-block;
@@ -60,8 +68,16 @@ span {
    box-shadow: 5px 5px 0 #000000;
    padding: 18px 20px;
    margin-right: 0;
+   transition: 90ms ease-in-out;
 }
 
 #button:hover {
+    transform: scale(1.05);
+}
 
+.nome {
+    display: inline-block;
+    flex-direction: column;
+    background-color: #3A4042;
+    padding: 38px 184px;
 }
