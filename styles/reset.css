@@ -9,5 +9,5 @@ body {
     
 button {
     border: none;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-family: inherit;
 }
