@@ -7,6 +7,7 @@
     transition: 90ms ease-in-out;
     font-style: 20px;
     color: #fff;
+    text-decoration: none;
  }
  
  .button:hover {
