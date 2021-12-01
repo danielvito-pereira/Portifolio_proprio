@@ -13,3 +13,24 @@ ul li {
      display: inline; 
 }
 
+.skills {
+    background:rebeccapurple;
+
+    height: 800px;
+}
+
+.projetos {
+    height: 520px;
+    background:rebeccapurple;
+}
+
+
+.sobre {
+    height: 783px;
+}
+
+
+.contatos {
+    height: 783px;
+    background-color: red;
+}
