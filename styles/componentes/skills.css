@@ -1,0 +1,24 @@
+.skills {
+    height: 900px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(109, 6, 95);
+    padding-top: 115px;
+    padding-left: 90px;
+
+}
+
+
+
+.skills .wraper-skills{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+
+.skills  {
+    display: flex;
+    justify-content: space-around;
+    
+}
