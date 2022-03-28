@@ -1,0 +1,20 @@
+.wrapper-skil {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.wrapper-skil .skill-tec {
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper-skil .skill-tec:nth-child(odd) {/*nth-child() significa enessimo filho  ele pega todos os numero impares por exemplo */
+    margin-right:100px;
+}
+.wrapper-skil .progress-bar{
+    width: 320px;
+}
