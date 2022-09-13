@@ -1,0 +1,7 @@
+.carrocel .wall-x{
+  display: none;
+}
+
+.carrocel .wall-x:target {
+  display: block;
+}

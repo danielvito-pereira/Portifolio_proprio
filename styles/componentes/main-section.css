@@ -19,3 +19,15 @@
 .main-section.-bdFirst {
     border-color:#F25a70;
 }
+
+.main-section.-sobre {
+    background: #7C5E99;
+}
+
+.main-section.-pColor{
+    border-color:#000000;
+}
+
+.main-section.-contato{
+    background-color: rgb(0, 0, 0);
+}
