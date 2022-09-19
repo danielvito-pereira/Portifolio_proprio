@@ -3,10 +3,10 @@
     background-color: #fff;
     border:5px solid #000;
     height:40px;
-
+    color: #7c5e99;
 }
 
 .progress-bar::-webkit-progress-bar,
 .progress-bar::-moz-progress-bar{
-    background-color: #7c5e99;
+    color: #7c5e99;
 }
