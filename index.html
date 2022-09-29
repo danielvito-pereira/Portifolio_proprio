@@ -34,6 +34,9 @@
     <link rel="stylesheet" href="./styles/componentes/button-arrow.css">
     <link rel="stylesheet" href="./styles/componentes/node-card.css">
     <link rel="stylesheet" href="./styles/componentes/main-carousel.css">
+    <link rel="stylesheet" href="./styles/componentes/main-footer.css">
+    <link rel="stylesheet" href="./styles/componentes/main-label.css">
+    <link rel="stylesheet" href="./styles/componentes/main-input.css">
     <title>Daniel Vitor</title>
   </head>
   <body>
@@ -177,9 +180,6 @@
     </section>
     <section class="main-section -bdSecond -bdBlack">
       <h2 class="main-title -second">Sobre</h2>
-  
-      <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
-
 
       <section class="main-caroucel">
         <button class="button-arrow -left"><span class="content" >Esquerda</span></button>
@@ -230,45 +230,37 @@
         <button class="button-arrow -right"><span class="content">Direito</span></button> 
   
       </section>
+        
+      <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
       
-
     </section>
 
-    <section class="main-section -contato">
-      <h2 class="main-title -second">Contato</hh2>
-   
-        <form action="">
+    <form action="">
 
-            <label for="size_1">Nome</label>
-            <input type="text" name="" id="">
-            
-          
-            <label for="size_1">Email</label>
-            <input type="email" name="" id="">
-        </form>
-   <!--
-        <table>
-          <tr>
-            <td>Nome</td>
-            <td><input type="text" name="nome" size="40"> <br /></td>
-          </tr>
-          <tr>
-            <td>Email</td>
-            <td><input type="email" name="email" size="40"> <br /></td>
-          </tr>
-          <tr>
-            <td>Mensagem</td>
-            <td><input type="text" name="sobrenome" size="40"> <br /></td>
-          </tr>
-         </table>
--->
-    </section>
+      <label class="main-label" for="name">Nome</label>
+      <input class="main-input" type="text" id="name">
 
-    <footer></footer>
-    <!--
-    <footer class="footer">
+      <label class="main-label" for="email" >Email</label>
+      <input class="main-input" type="email" id="email">
 
-    </footer>-->
+      <label class="main-label" for="message"> Mensagem </label>
+      <textarea class="main-input -textarea"name="" id="message" ></textarea>
+
+      <button class="main-button -formu" type="submit">Enviar</button>
+    
+    </form>
+
+    <footer class="main-footer">
+
+        <a class="action" href="">
+          <img src="img/twitter 1.png" alt=" Logo do Twitter em pixel art" target="_blank">
+        </a>
+        <a class="action" href="">
+          <img src="img/youtube 1.png" alt="Logo do YouTube em pixel art" target="_blank">
+        </a>
+
+    </footer>
+
     <script src="js/components/main-carousel.js"></script>
     
   </body>

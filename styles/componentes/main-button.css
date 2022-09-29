@@ -13,4 +13,9 @@
  .main-button:hover {
      transform: scale(1.05);
  }
+
+.main-button.-formu {
+
+    width: 100%;
+} 
  
